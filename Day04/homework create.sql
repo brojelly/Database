@@ -1,7 +1,7 @@
 
     
     -- (1) **`customers`** 테이블에 새 고객을 추가하세요.
-    INSERT INTO customers (customer_name, gender, weight, c.adress)
+    INSERT INTO customers (customer_name, gender, weight, c_adress)
     VALUES('Topuria', 'M', 'feather', 'spain')
     
     
@@ -32,7 +32,7 @@
     -- (8) **`productlines`** 테이블에 제품 라인을 추가하세요.
     
     -- (9) **`customers`** 테이블에 다른 지역의 고객을 추가하세요.
-    INSERT INTO customers (customer_name, gender, weight, c.adress)
+    INSERT INTO customers (customer_name, gender, weight, c_adress)
     VALUES ('Volkanovski', 'M', 'feather', 'Australia')
     
     -- (10) **`products`** 테이블에 다른 카테고리의 제품을 추가하세요.
